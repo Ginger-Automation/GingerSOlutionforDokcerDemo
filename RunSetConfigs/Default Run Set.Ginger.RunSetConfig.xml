@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="0310af67-dfc3-4376-83bf-1b046c57d104" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="202009070627" GingerVersion="3.6.0.0" Version="4" LastUpdateBy="MOHDKHAN" LastUpdate="202009090708" />
-<RunSetConfig Guid="0310af67-dfc3-4376-83bf-1b046c57d104" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRepositoryItem><Header ItemGuid="0310af67-dfc3-4376-83bf-1b046c57d104" ItemType="RunSetConfig" CreatedBy="MOHDKHAN" Created="202009070627" GingerVersion="3.6.0.0" Version="5" LastUpdateBy="MOHDKHAN" LastUpdate="202009090711" />
+<RunSetConfig Guid="0310af67-dfc3-4376-83bf-1b046c57d104" Name="Docker Runset" ParentGuid="00000000-0000-0000-0000-000000000000">
 <GingerRunners>
 <GingerRunner Guid="4df8c192-3366-4c20-b09e-5749cb609e03" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
@@ -8,7 +8,7 @@
 </ApplicationAgents>
 
 <BusinessFlowsRunList>
-<BusinessFlowRun BusinessFlowGuid="ce914292-9d61-4472-b407-69bfd5e9ff26" BusinessFlowInstanceGuid="42a57d1d-4f10-405b-b712-2ab36a7e02a7" BusinessFlowIsActive="True" BusinessFlowName="att.com" Guid="680fd4e8-0912-461d-88da-301ef601c97a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<BusinessFlowRun BusinessFlowGuid="ce914292-9d61-4472-b407-69bfd5e9ff26" BusinessFlowInstanceGuid="42a57d1d-4f10-405b-b712-2ab36a7e02a7" BusinessFlowIsActive="True" BusinessFlowName="att.com" Guid="eb7c8ecc-3c24-4005-891b-ab8d87623091" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
