@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ce914292-9d61-4472-b407-69bfd5e9ff26" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="202008311200" GingerVersion="3.6.0.0" Version="7" LastUpdateBy="MOHDKHAN" LastUpdate="202009071045" />
-<BusinessFlow Elapsed="22504" Guid="ce914292-9d61-4472-b407-69bfd5e9ff26" Name="att.com" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="ce914292-9d61-4472-b407-69bfd5e9ff26" ItemType="BusinessFlow" CreatedBy="MOHDKHAN" Created="202008311200" GingerVersion="3.6.0.0" Version="9" LastUpdateBy="MOHDKHAN" LastUpdate="202009090710" />
+<BusinessFlow Guid="ce914292-9d61-4472-b407-69bfd5e9ff26" Name="att.com" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="afcd7f30-a72a-4146-90c4-605854e1b4c5" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="SpecificErrorHandlers" Guid="afcd7f30-a72a-4146-90c4-605854e1b4c5" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
 <Acts>
 <ActBrowserElement Active="True" Description="Browser Action" Guid="9898294c-0659-40ae-96b4-b8d25354a962" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" TakeScreenShot="True" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
@@ -73,12 +73,12 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="d89aa701-daea-400b-8d93-6193e51d8a9a" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="afcd7f30-a72a-4146-90c4-605854e1b4c5" ActivityName="Activity 1" Guid="78d9dfa5-2cf5-4d30-827c-d5cfe6c11d22" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="afcd7f30-a72a-4146-90c4-605854e1b4c5" ActivityName="Activity 1" Guid="2d84c90f-9f16-406e-ada3-321965681d72" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
 
 <TargetApplications>
-<TargetApplication AppName="MyWebApp" Guid="e8204a36-2d1b-43ed-93db-02c8adccc0e5" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<TargetApplication AppName="MyWebApp" Guid="e8204a36-2d1b-43ed-93db-02c8adccc0e5" LastExecutingAgentName="Remote Chrome Driver" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </TargetApplications>
 </BusinessFlow></GingerRepositoryItem>

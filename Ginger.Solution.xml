@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="14b3b550-da6f-4f85-859c-60f94abb5e8e" ItemType="Solution" CreatedBy="MOHDKHAN" Created="202009070619" GingerVersion="3.6.0.0" Version="2" LastUpdateBy="MOHDKHAN" LastUpdate="202009070619" />
+<GingerRepositoryItem><Header ItemGuid="14b3b550-da6f-4f85-859c-60f94abb5e8e" ItemType="Solution" CreatedBy="MOHDKHAN" Created="202009070619" GingerVersion="3.6.0.0" Version="3" LastUpdateBy="MOHDKHAN" LastUpdate="202009090710" />
 <Solution Guid="14b3b550-da6f-4f85-859c-60f94abb5e8e" Name="WebPlugin" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" Guid="bed905d0-43a6-424e-85ba-d65149ac2247" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
